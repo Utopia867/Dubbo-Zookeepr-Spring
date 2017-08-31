@@ -1,7 +1,8 @@
 # Dubbo-Zookeepr-Spring 本教程是在windows7下运行
 由于Zookeeper太大，我把zookeeper压缩了，解压后，修改<code>conf</code>下的配置文件下的
 <code>zoo.cfg</code>文件，在zookeeper官网下载到zookeeper时是没有这个文件的，将<code>zoo_sample.cfg</code>复制一个为<code>conf</code>的文件即可。
-'''config
+
+```config
 # The number of milliseconds of each tick
 tickTime=2000
 # The number of ticks that the initial 
@@ -32,10 +33,13 @@ clientPort=2181
 # Purge task interval in hours
 # Set to "0" to disable auto purge feature
 #autopurge.purgeInterval=1
+```
 
-'''
+
 修改<code>dataDir</code>和<code>dataLogDir</code>即可，修改后需要创建相应的文件夹，及存储日志和数据，否则启动zookeeper会报错，在zookeeper文件夹下的bin文件夹下双击<code>zkServer.cmd</code>可以启动zookeeper，启动成功后可以看到
-'''log
+
+
+```log
 ent:java.io.tmpdir=C:\Users\WANGGU~1\AppData\Local\Temp\
 2017-08-31 19:29:30,589 [myid:] - INFO  [main:Environment@100] - Server environm
 ent:java.compiler=<NA>
@@ -59,5 +63,7 @@ imeout set to -1
 imeout set to -1
 2017-08-31 19:29:30,618 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding
  to port 0.0.0.0/0.0.0.0:2181
-'''
+```
+
+
 这就证明zookeeper启动成功
