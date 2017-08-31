@@ -1,6 +1,6 @@
 # Dubbo-Zookeepr-Spring 本教程是在windows7下运行
 由于Zookeeper太大，我把zookeeper压缩了，解压后，修改<code>conf</code>下的配置文件下的
-<code>zoo.cfg</code>文件，在zookeeper官网下载到zookeeper时是没有这个文件的，将<code>zoo_sample.cfg</code>复制一个为<code>conf</code>的文件即可。
+<code>zoo.cfg</code>文件，在zookeeper官网下载到zookeeper时是没有这个文件的，将<code>zoo_sample.cfg</code>复制一个为<code>zoo.cfg</code>的文件即可。
 
 ```config
 # The number of milliseconds of each tick
