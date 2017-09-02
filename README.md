@@ -48,28 +48,17 @@ clientPort=2181
 
 ```log
 ent:java.io.tmpdir=C:\Users\WANGGU~1\AppData\Local\Temp\
-2017-08-31 19:29:30,589 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:java.compiler=<NA>
-2017-08-31 19:29:30,590 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:os.name=Windows 7
-2017-08-31 19:29:30,590 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:os.arch=amd64
-2017-08-31 19:29:30,591 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:os.version=6.1
-2017-08-31 19:29:30,592 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:user.name=wangguoqi
-2017-08-31 19:29:30,592 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:user.home=C:\Users\wangguoqi
-2017-08-31 19:29:30,592 [myid:] - INFO  [main:Environment@100] - Server environm
-ent:user.dir=D:\WorkSpace\EclipseWorkspace\Dubbo+Zookeepr+Spring\zookeeper\bin
-2017-08-31 19:29:30,599 [myid:] - INFO  [main:ZooKeeperServer@755] - tickTime se
-t to 2000
-2017-08-31 19:29:30,599 [myid:] - INFO  [main:ZooKeeperServer@764] - minSessionT
-imeout set to -1
-2017-08-31 19:29:30,599 [myid:] - INFO  [main:ZooKeeperServer@773] - maxSessionT
-imeout set to -1
-2017-08-31 19:29:30,618 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding
- to port 0.0.0.0/0.0.0.0:2181
+2017-08-31 19:29:30,589 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2017-08-31 19:29:30,590 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Windows 7
+2017-08-31 19:29:30,590 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2017-08-31 19:29:30,591 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=6.1
+2017-08-31 19:29:30,592 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=wangguoqi
+2017-08-31 19:29:30,592 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=C:\Users\wangguoqi
+2017-08-31 19:29:30,592 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=D:\WorkSpace\EclipseWorkspace\Dubbo+Zookeepr+Spring\zookeeper\bin
+2017-08-31 19:29:30,599 [myid:] - INFO  [main:ZooKeeperServer@755] - tickTime set to 2000
+2017-08-31 19:29:30,599 [myid:] - INFO  [main:ZooKeeperServer@764] - minSessionTimeout set to -1
+2017-08-31 19:29:30,599 [myid:] - INFO  [main:ZooKeeperServer@773] - maxSessionTimeout set to -1
+2017-08-31 19:29:30,618 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
 ```
 
 
